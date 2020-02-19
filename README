@@ -1,0 +1,3 @@
+# Content
+
+This repo contains code for to method comparison using the R-package "mcr" with a python interface. For the GUI we chose PyQT.
