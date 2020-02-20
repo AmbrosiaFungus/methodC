@@ -22,8 +22,9 @@ def import_packages(packnames, mirror):
         raise "ERROR: can't find mirror to load packages from"
 
 
-    utils.install_packages(StrVector(packnames))
+    p = utils.install_packages(StrVector(packnames))
+
+    return p
 
 
 
-mcr = import_packages(packnames = "mcr", mirror = "CRAN")
